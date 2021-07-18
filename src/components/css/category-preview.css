@@ -1,0 +1,17 @@
+.category {
+  width: 100%;
+}
+
+.category-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 15px;
+}
+
+.category_show-all {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}

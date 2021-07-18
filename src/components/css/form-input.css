@@ -1,0 +1,13 @@
+.form-input_container label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+.form-input_container input {
+  margin-bottom: 15px;
+  border: 1px solid #bfb8af;
+  padding: 10px 15px;
+  font-size: 20px;
+  outline: none;
+}

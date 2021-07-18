@@ -1,0 +1,8 @@
+.sign-in {
+  width: 320px;
+  margin-left: 200px;
+  &_btns {
+    display: flex;
+    justify-content: space-between;
+  }
+}

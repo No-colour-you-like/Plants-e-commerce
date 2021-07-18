@@ -1,0 +1,7 @@
+.cart {
+  display: flex;
+}
+
+.cart-name {
+  margin-right: 5px;
+}

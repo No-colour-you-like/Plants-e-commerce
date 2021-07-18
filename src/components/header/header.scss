@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  &-container {
+    display: block;
+    width: 100px;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  &-link {
+    display: block;
+    padding: 0 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}

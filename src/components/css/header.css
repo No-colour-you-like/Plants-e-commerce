@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: block;
+  width: 100px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-link {
+  display: block;
+  padding: 0 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu-link:last-child {
+  padding-right: 0;
+}

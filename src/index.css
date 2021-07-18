@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Domaine Display Narrow Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Domaine Display Narrow Regular"),
+    url("./fonts/DomaineDispNar-Regular.woff") format("woff"),
+    url("./fonts/DomaineDispNar-Regular.woff2") format("woff2"),
+    url("./fonts/DomaineDispNar-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Domaine Display Narrow Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Domaine Display Narrow Medium"),
+    url("./fonts/DomaineDispNar-Medium.woff") format("woff"),
+    url("./fonts/DomaineDispNar-Medium.woff2") format("woff2"),
+    url("./fonts/DomaineDispNar-Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Domaine Display Narrow Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Domaine Display Narrow Semibold"),
+    url("./fonts/DomaineDispNar-Semibold.woff") format("woff"),
+    url("./fonts/DomaineDispNar-Semibold.woff2") format("woff2"),
+    url("./fonts/DomaineDispNar-Semibold.otf") format("otf");
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: "Domaine Display Narrow Regular", sans-serif;
+  letter-spacing: 2px;
+  color: #302d27;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
