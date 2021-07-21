@@ -5,8 +5,6 @@ import { withRouter } from "react-router";
 import Item from "../items/Item";
 
 const CategoryFull = ({ productItems, history }) => {
-  console.log(productItems);
-
   const { title, items } = productItems;
   return (
     <div className="category">

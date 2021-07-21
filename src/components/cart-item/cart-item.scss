@@ -18,8 +18,25 @@
     font-size: 20px;
     margin: 0;
   }
-  &_price, &_quantity {
+  &_price,
+  &_quantity {
     font-size: 18px;
+  }
+  &_quantity {
+    max-width: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &_quantity-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
   }
   &_remove {
     cursor: pointer;

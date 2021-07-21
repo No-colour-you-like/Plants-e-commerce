@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import "./category-preview.scss";
 
-const CategoryPreview = ({ productData }) => {
+const CategoryPreview = ({ productData, history }) => {
   const { title, items, routeName } = productData;
   return (
     <div className="category">
@@ -17,7 +17,7 @@ const CategoryPreview = ({ productData }) => {
             <Item key={item.id} itemInfo={item} />
           ))}
       </div>
-      <Link to={`/${routeName}`} className="category_show-all">
+      <Link to={`/plants-e-commerce${routeName}`} className="category_show-all">
         Show All
       </Link>
     </div>

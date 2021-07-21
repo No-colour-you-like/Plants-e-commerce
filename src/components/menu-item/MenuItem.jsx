@@ -4,7 +4,6 @@ import "./menu-item.scss";
 
 const MenuItem = ({ sectionInfo, history, match }) => {
   const { title, imageUrl, linkUrl } = sectionInfo;
-  console.log(history);
   return (
     <div
       className="menu-item"

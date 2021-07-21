@@ -10,11 +10,11 @@ import Cart from "../cart/Cart";
 const Header = ({ currentUser }) => {
   return (
     <div className="header">
-      <Link className="logo-container" to="/">
+      <Link className="logo-container" to="/plants-e-commerce">
         <img className="logo-img" src={Logo} alt="logo-img" />
       </Link>
       <div className="menu">
-        <Link className="menu-link" to="/">
+        <Link className="menu-link" to="/plants-e-commerce">
           Home
         </Link>
         {currentUser ? (
@@ -22,11 +22,11 @@ const Header = ({ currentUser }) => {
             Sign Out
           </div>
         ) : (
-          <Link className="menu-link" to="/signin">
+          <Link className="menu-link" to="/plants-e-commerce/signin">
             Sign In
           </Link>
         )}
-        <div className="menu-link" to="/contacts">
+        <div className="menu-link" to="/plants-e-commerce/contacts">
           <Cart />
         </div>
       </div>

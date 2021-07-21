@@ -45,21 +45,39 @@ class App extends React.Component {
         <Header />
         <SlideCart />
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/plants-e-commerce" component={HomePage} />
           <Route
-            path="/plants"
+            path="/plants-e-commerce/plants"
             component={() => (
-              <Section productsData={this.props.productsData.data[0]} />
+              <Section sectionData={this.props.sectionData[0]} />
             )}
           />
           <Route
-            path="/gifts"
+            path="/plants-e-commerce/gifts"
             component={() => (
-              <Section productsData={this.props.productsData.data[1]} />
+              <Section sectionData={this.props.sectionData[1]} />
             )}
           />
           <Route
-            path="/signin"
+            path="/plants-e-commerce/gardencare"
+            component={() => (
+              <Section sectionData={this.props.sectionData[2]} />
+            )}
+          />
+          <Route
+            path="/plants-e-commerce/wellness"
+            component={() => (
+              <Section sectionData={this.props.sectionData[3]} />
+            )}
+          />
+          <Route
+            path="/plants-e-commerce/art"
+            component={() => (
+              <Section sectionData={this.props.sectionData[4]} />
+            )}
+          />
+          <Route
+            path="/plants-e-commerce/signin"
             render={() =>
               this.props.currentUser ? <Redirect to="/" /> : <SignInSignUp />
             }
@@ -72,7 +90,7 @@ class App extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-    productsData: state.products,
+    sectionData: state.products.data,
   };
 };
 
