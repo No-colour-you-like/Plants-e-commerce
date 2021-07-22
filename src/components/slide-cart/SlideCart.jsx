@@ -6,6 +6,7 @@ import closeBtn from "../../img/close.png";
 
 import { toggleCart } from "../../redux/cart/cart-reducer";
 import CartItem from "../cart-item/CartItem";
+import StripeCheckoutBtn from "../stripe-btn/StripeBtn";
 
 const SlideCart = ({ hiddenCart, toggleCart, cartItems, totalPrice }) => {
   return (
@@ -27,11 +28,15 @@ const SlideCart = ({ hiddenCart, toggleCart, cartItems, totalPrice }) => {
         })}
       </div>
       <div className="slide-cart_checkout">
+        <div className="slide-cart_warning">
+          <p>Use the following test credit card for payments</p>
+          <p>4242 4242 4242 4242 - Exp: 01/22 - CW: 123</p>
+        </div>
         <div className="slide-cart_total">
           <p className="slide-cart_total-title">Total:</p>
           <div className="slide-cart_total-price">${totalPrice}</div>
+          <StripeCheckoutBtn price={totalPrice} />
         </div>
-        <button className="slide-cart_checkout-btn">Checkout</button>
       </div>
     </div>
   );

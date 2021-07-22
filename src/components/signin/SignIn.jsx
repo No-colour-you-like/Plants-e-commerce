@@ -27,8 +27,6 @@ class SignIn extends React.Component {
     } catch (err) {
       console.log(err);
     }
-
-    
   };
 
   handleChange = (e) => {
@@ -43,18 +41,17 @@ class SignIn extends React.Component {
         <p className="sign-in_subtitle">
           Sign in width your email and password
         </p>
-
         <form onSubmit={this.handleSubmit} className="sign-in_form">
           <FormInput
             displayName="Email"
-            name="email"
+            name="Email"
             type="email"
             value={this.state.email}
             onChangeFunc={this.handleChange}
           />
           <FormInput
             displayName="Password"
-            name="password"
+            name="Password"
             type="password"
             value={this.state.password}
             onChangeFunc={this.handleChange}

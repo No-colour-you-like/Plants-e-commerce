@@ -72,49 +72,49 @@ export const PRODUCTS_STATE = {
               id: 10,
               name: 'Begonia',
               imageUrl: 'https://i.ibb.co/JsD5Bdf/begonia.jpg',
-              price: 220
+              price: 30
             },
             {
               id: 11,
               name: 'Gypso',
               imageUrl: 'https://i.ibb.co/tJC2h1x/gypso.jpg',
-              price: 280
+              price: 35
             },
             {
               id: 12,
               name: 'Kokedama',
               imageUrl: 'https://i.ibb.co/dP5jNJS/kokedama.jpg',
-              price: 110
+              price: 19
             },
             {
               id: 13,
               name: 'Living Moss Wall',
               imageUrl: 'https://i.ibb.co/yyQT9n9/living-moss-wall.jpg',
-              price: 160
+              price: 12
             },
             {
               id: 14,
               name: 'Maiden Hair',
               imageUrl: 'https://i.ibb.co/XXX0RDp/maiden-hair.jpg',
-              price: 160
+              price: 16
             },
             {
               id: 15,
               name: 'Orchid',
               imageUrl: 'https://i.ibb.co/5579rhp/orchid.jpg',
-              price: 160
+              price: 16
             },
             {
               id: 16,
               name: 'Pilea Peperomia',
               imageUrl: 'https://i.ibb.co/9VNn4Hw/pilea-peperomia.jpg',
-              price: 190
+              price: 19
             },
             {
               id: 17,
               name: 'Strings Of Pearls',
               imageUrl: 'https://i.ibb.co/km3PCpL/string-of-pearls.jpg',
-              price: 200
+              price: 20
             }
           ]
         },
@@ -126,37 +126,37 @@ export const PRODUCTS_STATE = {
               id: 18,
               name: 'The Day Off Bouquet',
               imageUrl: 'https://i.ibb.co/KsznmYb/the-day-off-bouquet.jpg',
-              price: 125
+              price: 21
             },
             {
               id: 19,
               name: 'The Greens Anthurium Bouquet',
               imageUrl: 'https://i.ibb.co/17gXDLF/The-Greens-Anthurium-Bouquet.jpg',
-              price: 90
+              price: 31
             },
             {
               id: 20,
               name: 'The Nature Walk bouquet',
               imageUrl: 'https://i.ibb.co/x7sXtYj/the-nature-walk-bouquet.jpg',
-              price: 90
+              price: 35
             },
             {
               id: 21,
               name: 'The Pink Torch Bouquet',
               imageUrl: 'https://i.ibb.co/gFMxwY6/The-Pink-Torch-Bouquet.jpg',
-              price: 165
+              price: 25
             },
             {
               id: 22,
               name: 'The R&R Bouquet',
               imageUrl: 'https://i.ibb.co/gv64Yz1/the-r-r-bouquet.jpg',
-              price: 185
+              price: 16
             },
             {
               id: 23,
               name: 'The Sunburst Heliconia Bouquet',
               imageUrl: 'https://i.ibb.co/fN4vtvf/The-Sunburst-Heliconia-Bouquet.jpg',
-              price: 185
+              price: 18
             }
           ]
         }
