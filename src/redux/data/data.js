@@ -3,11 +3,11 @@ export const PRODUCTS_STATE = {
       id: 1,
       title: 'Plants & Potting Supplies',
       imageUrl: "https://i.ibb.co/qd7cCY1/live-plants.jpg",
-      linkUrl: "/plants",
+      linkUrl: "plants",
       type: [{
           id: 1,
           title: 'Live Plants',
-          routeName: '/plants/live',
+          routeName: 'plants/live',
           items: [{
               id: 1,
               name: 'Bidrd Of Paradise',
@@ -67,7 +67,7 @@ export const PRODUCTS_STATE = {
         {
           id: 2,
           title: 'Faux, Dried & Preserved',
-          routeName: '/plants/faux',
+          routeName: 'plants/faux',
           items: [{
               id: 10,
               name: 'Begonia',
@@ -121,7 +121,7 @@ export const PRODUCTS_STATE = {
         {
           id: 3,
           title: 'Flowers & Botanicals',
-          routeName: '/plants/flowers',
+          routeName: 'plants/flowers',
           items: [{
               id: 18,
               name: 'The Day Off Bouquet',
@@ -166,11 +166,11 @@ export const PRODUCTS_STATE = {
       id: 2,
       title: 'Gift',
       imageUrl: "https://i.ibb.co/sQvBPzC/gift.jpg",
-      linkUrl: "/gifts",
+      linkUrl: "gifts",
       type: [{
           id: 10,
           title: 'The Gift Collection',
-          routeName: '/gifts/collection',
+          routeName: 'gifts/collection',
           items: [{
               id: 50,
               name: 'Ceramic Gift Message Pops',
@@ -218,7 +218,7 @@ export const PRODUCTS_STATE = {
         {
           id: 11,
           title: 'Plant Bundles',
-          routeName: '/gifts/bundle',
+          routeName: 'gifts/bundle',
           items: [{
               id: 57,
               name: 'Giftable Duo',
@@ -269,11 +269,11 @@ export const PRODUCTS_STATE = {
       id: 3,
       title: "Garden care",
       imageUrl: "https://i.ibb.co/LZk9G6k/care.jpg",
-      linkUrl: "/gardencare",
+      linkUrl: "gardencare",
       type: [{
         id: 12,
         title: 'Garden care',
-        routeName: '/gardencare/gardencare',
+        routeName: 'gardencare/gardencare',
         items: [{
             id: 64,
             name: 'Child Stainless Steel Set',
@@ -305,11 +305,11 @@ export const PRODUCTS_STATE = {
       id: 4,
       title: "Apothecary & Wellness",
       imageUrl: "https://i.ibb.co/x6Ph0sX/welness.jpg",
-      linkUrl: "/wellness",
+      linkUrl: "wellness",
       type: [{
           id: 12,
           title: 'Wellness',
-          routeName: '/wellness/wellness',
+          routeName: 'wellness/wellness',
           items: [{
               id: 68,
               name: 'Aller ease',
@@ -351,7 +351,7 @@ export const PRODUCTS_STATE = {
         {
           id: 13,
           title: 'Skincare',
-          routeName: '/wellness/skincare',
+          routeName: 'wellness/skincare',
           items: [{
               id: 73,
               name: 'All over roller',
@@ -396,11 +396,11 @@ export const PRODUCTS_STATE = {
       id: 5,
       title: "Art & Activities",
       imageUrl: "https://i.ibb.co/2hKJP27/art.jpg",
-      linkUrl: "/art",
+      linkUrl: "art",
       type: [{
         id: 14,
         title: 'Art',
-        routeName: '/art/art',
+        routeName: 'art/art',
         items: [{
             id: 79,
             name: 'Araceae Print',
