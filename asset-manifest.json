@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/plants-e-commerce/static/css/main.798f6d75.chunk.css",
-    "main.js": "/plants-e-commerce/static/js/main.2551e12f.chunk.js",
-    "main.js.map": "/plants-e-commerce/static/js/main.2551e12f.chunk.js.map",
+    "main.js": "/plants-e-commerce/static/js/main.fe3136a3.chunk.js",
+    "main.js.map": "/plants-e-commerce/static/js/main.fe3136a3.chunk.js.map",
     "runtime-main.js": "/plants-e-commerce/static/js/runtime-main.881cf2e0.js",
     "runtime-main.js.map": "/plants-e-commerce/static/js/runtime-main.881cf2e0.js.map",
     "static/js/2.476a56a8.chunk.js": "/plants-e-commerce/static/js/2.476a56a8.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.881cf2e0.js",
     "static/js/2.476a56a8.chunk.js",
     "static/css/main.798f6d75.chunk.css",
-    "static/js/main.2551e12f.chunk.js"
+    "static/js/main.fe3136a3.chunk.js"
   ]
 }
